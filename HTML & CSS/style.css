@@ -1,0 +1,23 @@
+body {
+    background-color: indigo;
+    color: white;
+    strong {
+        color: gray;
+    }
+    p {
+        color: aqua;
+    }
+}
+footer {
+    background-color: greenyellow;
+    color: brown;
+    p {
+        color: #000000;
+    }
+}
+h1 {
+    background-color: black;
+}
+a {
+    color: yellow;
+}

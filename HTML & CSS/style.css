@@ -1,23 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: indigo;
-    color: white;
-    strong {
-        color: gray;
-    }
-    p {
-        color: aqua;
-    }
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
 }
+
+main {
+    flex: 1;
+}
+
 footer {
-    background-color: greenyellow;
+    background-color: #22D4FD;
     color: brown;
+    margin: 0.0%;
+    border: 1px solid black;
+    padding: 10px;
     p {
-        color: #000000;
+        color: #551a8b;
     }
 }
-h1 {
-    background-color: black;
+
+.container {
+    margin: 2.5% 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-a {
-    color: yellow;
+
+.container__conteudo {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container__conteudo__titulo {
+    font-size: 38px;
+    font-family: "Big Shoulders Inline", sans-serif;;
+}
+
+.container__conteudo__texto {
+    color: darkgray;
+    font-size: 18px;
+    font-family: "Big Shoulders Stencil", sans-serif;;
+}
+
+.container__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    text-decoration: none;
 }

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -45,13 +44,13 @@ footer {
 
 .container__conteudo__titulo {
     font-size: 38px;
-    font-family: "Big Shoulders Inline", sans-serif;;
+    font-family: "Big Shoulders Inline", sans-serif;
 }
 
 .container__conteudo__texto {
     color: darkgray;
     font-size: 18px;
-    font-family: "Big Shoulders Stencil", sans-serif;;
+    font-family: "Big Shoulders Stencil", sans-serif;
 }
 
 .container__links {
@@ -67,6 +66,7 @@ footer {
     width: 280px;
     text-align: center;
     border-radius: 16px;
+    font-family: "Playfair Display", serif;
     font-size: 24px;
     text-decoration: none;
 }

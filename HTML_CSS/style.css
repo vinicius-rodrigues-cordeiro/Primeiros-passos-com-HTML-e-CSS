@@ -61,12 +61,17 @@ footer {
     gap: 13px;
 }
 
+.container__links__Subtitulo {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 19px;
+}
+
 .container__links__link {
     background-color: #22D4FD;
     width: 280px;
     text-align: center;
     border-radius: 16px;
     font-family: "Playfair Display", serif;
-    font-size: 24px;
+    font-size: 16px;
     text-decoration: none;
 }

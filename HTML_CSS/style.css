@@ -67,9 +67,9 @@ footer {
 }
 
 .container__links__link {
-    background-color: #22D4FD;
+    /* background-color: #22D4FD; */
     border: 1px solid;
-    width: 140px;
+    width: 160px;
     text-align: center;
     border-radius: 6px;
     font-family: "Playfair Display", serif;

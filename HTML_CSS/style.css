@@ -13,10 +13,6 @@ body {
     color: black;
 }
 
-main {
-    flex: 1;
-}
-
 .container {
     margin: 2.5% 7.5%;
     display: flex;

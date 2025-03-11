@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+.cabecalho {
+    padding: 0% 0%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 6px;
+}
+
+.cabecalho__menu__links {
+    margin: 3px;
+    border: 2px black;
+    background-color: #22D4FD;
+    padding: 0.2% 0.2%;
+    color: #551a8b;
+        
+}
+
+.container {
+    margin: 1.5% 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__conteudo {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container__conteudo__titulo {
+    font-size: 38px;
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+
+.container__conteudo__texto {
+    color: darkgray;
+    font-size: 18px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+.container__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+
+.container__links__Subtitulo {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 19px;
+}
+
+main {
+    flex: 1;
+}
+
+
+.container__links__link {
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid;
+    width: 160px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container__links__link:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    border: 2px solid #000000;
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: brown;
+    margin: 0.0%;
+    border: 1px solid black;
+    padding: 10px;
+    p {
+        color: #551a8b;
+    }
+}

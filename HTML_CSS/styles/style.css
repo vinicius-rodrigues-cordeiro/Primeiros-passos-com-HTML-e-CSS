@@ -139,7 +139,6 @@ main {
 
 
 .container__links__link {
-    /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
     gap: 10px;

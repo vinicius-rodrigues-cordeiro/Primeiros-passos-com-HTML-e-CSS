@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+    --cor-primaria: #22D4FD;
+    --cor-secundaria: #551a8b;
+    --cor-terciaria: black;
+    --cor-quaternaria: white;
+    --cor-quinaria: darkgray;
+    --cor-senaria: darkblue;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +19,8 @@ body {
     flex-direction: column;
     height: 100vh;
     box-sizing: border-box;
-    background-color: white;
-    color: black;
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-terciaria);
 }
 
 .cabecalho {
@@ -24,13 +34,16 @@ body {
 
 .cabecalho__menu__links {
     margin: 3px;
-    border: 2px black;
-    background-color: #22D4FD;
+    border: 2px var(--cor-terciaria);
+    background-color: var(--cor-primaria);
     padding: 0.2% 0.2%;
-    color: #551a8b;
+    color: var(--cor-secundaria);
     text-decoration: none;
         
 }
+
+
+ /* CSS LOCAL - pagina curriculo */
 
 .container__curriculo {
     margin: 1.5% 7.5% 0% 2%;
@@ -72,6 +85,16 @@ body {
     padding: 1.1% 0% 0% 3%;
 }
 
+
+.container__curriculo__certificados {
+    max-width: 28.9%; /* Ou um valor fixo como 300px */
+    height: auto;
+}
+
+
+ /* CSS LOCAL - pagina curriculo */
+
+
 .container {
     margin: 1.5% 7.5%;
     display: flex;
@@ -92,7 +115,7 @@ body {
 }
 
 .container__conteudo__texto {
-    color: darkgray;
+    color: var(--cor-quinaria);
     font-size: 18px;
     font-family: "Big Shoulders Stencil", sans-serif;
 }
@@ -130,19 +153,18 @@ main {
 }
 
 .container__links__link:hover {
-    background-color: darkblue;
+    background-color: var(--cor-senaria);
     cursor: pointer;
     color: white;
-    border: 2px solid #000000;
+    border: 2px solid var(--cor-terciaria);
 }
 
 .rodape {
-    background-color: #22D4FD;
-    color: brown;
+    background-color: var(--cor-primaria);
     margin: 0.0%;
-    border: 1px solid black;
+    border: 1px solid var(--cor-terciaria);
     padding: 10px;
     p {
-        color: #551a8b;
+        color: var(--cor-secundaria);
     }
 }

@@ -32,6 +32,46 @@ body {
         
 }
 
+.container__curriculo {
+    margin: 1.5% 7.5% 0% 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__curriculo__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.imagem-pequena {
+    padding-left: 42.9%;
+    width: 175px;
+    height: auto;
+}
+
+.container__curriculo__titutlo__secundario {
+    padding: 1.5% 0% 0% 0%;
+    font-size: 22px;
+}
+
+.container__curriculo__introducao {
+    padding: 1.1% 0% 0% 0%;
+}
+
+.container__curriculo__introducao__skills {
+    padding: 0.5% 1% 0.5% 3%;
+}
+
+.container__curriculo__experiencia {
+    padding: 1.1% 0% 0% 3%;
+}
+
+.container__curriculo__estudos {
+    padding: 1.1% 0% 0% 3%;
+}
+
 .container {
     margin: 1.5% 7.5%;
     display: flex;

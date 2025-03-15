@@ -226,7 +226,7 @@ main {
     }
 
     .container__imagem__selfie {
-        max-width: 100%;
+        max-width: auto;
     }
 
     .cabecalho__menu__links {

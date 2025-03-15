@@ -171,3 +171,9 @@ main {
         color: var(--cor-secundaria);
     }
 }
+
+@media (max-width: 853) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}

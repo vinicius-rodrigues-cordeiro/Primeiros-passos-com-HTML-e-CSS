@@ -175,5 +175,39 @@ main {
 @media (max-width: 853px) {
     .container {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container__conteudo {
+        width: 90%;
+        max-width: 100%;
+        padding: 6%;
+    }
+
+    .container__conteudo__titulo {
+        font-size: 2rem; 
+        word-wrap: break-word; 
+    }
+
+    .container__conteudo__texto {
+        font-size: 1rem; 
+        word-wrap: break-word;
+    }
+
+    .container__imagem__selfie {
+        max-width: 100%;
+    }
+
+    .cabecalho__menu__links {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    .rodape {
+        text-align: center;
+        padding: 15px;
     }
 }

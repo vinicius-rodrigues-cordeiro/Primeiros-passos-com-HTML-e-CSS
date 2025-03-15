@@ -1,5 +1,5 @@
 <h1 align="center"> Pagina Profissional </h1>
-<p align="center"> Um portifólio criado a partir do estudos de HTML e CSS na plataforma Alura, no programa ONE. </p>
+<p align="center"> Um portifólio criado a partir dos estudos de HTML e CSS na plataforma Alura, no programa ONE. </p>
 <h2 align="center"> :construction: Projeto em desenvolvimento :construction: </h2>
 <h3> :hammer: Funcionalidades do projeto </h3>
 

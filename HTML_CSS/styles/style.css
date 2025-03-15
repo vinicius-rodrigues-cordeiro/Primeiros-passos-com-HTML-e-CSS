@@ -17,7 +17,6 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-quaternaria);
     color: var(--cor-terciaria);

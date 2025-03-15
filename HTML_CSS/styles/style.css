@@ -173,11 +173,21 @@ main {
 }
 
 @media (max-width: 853px) {
+    .cabecalho {
+        padding: 0.5%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+        padding: 0% 0% 0% 4%;
+        gap: 2.5%;
+    }
+
     .container {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 
@@ -206,8 +216,32 @@ main {
         font-size: 1rem;
     }
 
+    .container__links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__links__link {
+        width: 80%; 
+        max-width: 300px; 
+        padding: 10px 0; 
+        font-size: 1rem; 
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px; 
+    }
+
+    .container__links__link img {
+        width: 20px; 
+        height: auto;
+    }
+
     .rodape {
         text-align: center;
-        padding: 15px;
+        padding: 0.5;
     }
 }

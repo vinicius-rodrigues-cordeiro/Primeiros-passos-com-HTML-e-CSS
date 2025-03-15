@@ -12,5 +12,5 @@
 - `HTML`
 - `CSS`
 - `API - Google fonts`
-- `Media query`
+- `Media queries`
 - `Flex-box`

@@ -2,7 +2,7 @@
 <h2 align="center"> :construction: Projeto em desenvolvimento :construction: </h2>
 <h3> :hammer: Funcionalidades do projeto </h3>
 
-- `Funcionalidade 1`: Pagina inicial(Home), com informações de contato no rodapé, links para redes sociais e uma descrição da pagina e seu desenvolvedor.
+- `Funcionalidade 1`: Pagina inicial(Home), com cabeçalho contendo menu para paginas: home, sobre mim e curriculo. Informações de contato no rodapé, links para redes sociais e uma descrição da pagina e seu desenvolvedor.
 - `Funcionalidade 2`: Pagina secundária(Sobre mim), informações sobre o desenvolvedor.
 - `Funcionalidade 3`: Pagina terciária(Curriculo), informações profissionais sobre o desenvolvedor, desde experiências, formação acadêmica e certificados obtidos.
 

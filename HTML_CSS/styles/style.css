@@ -17,6 +17,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     box-sizing: border-box;
     background-color: var(--cor-quaternaria);
     color: var(--cor-terciaria);
@@ -103,7 +104,7 @@ body {
 }
 
 .container__conteudo {
-    width: 700px;
+    width: 43.75rem;
     display: flex;
     flex-direction: column;
     gap: 10px;

@@ -94,6 +94,24 @@ body {
 
  /* CSS LOCAL - pagina curriculo */
 
+/* CSS LOCAL - pagina about */
+
+.container__about {
+    width: 43.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container__about__titulo {
+    font-size: 2.375rem;
+    font-family: "Big Shoulders Inline", sans-serif;
+}
+.container__about__texto {
+    color: var(--cor-terciaria);
+    font-size: 1.125rem;
+}
+
+/* CSS LOCAL - pagina about */
 
 .container {
     margin: 1.5% 7.5%;
@@ -116,7 +134,7 @@ body {
 }
 
 .container__conteudo__texto {
-    color: var(--cor-quinaria);
+    color: var(--cor-terciaria);
     font-size: 1.125rem;
     font-family: "Big Shoulders Stencil", sans-serif;
 }

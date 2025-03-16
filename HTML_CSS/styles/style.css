@@ -55,7 +55,7 @@ body {
 .container__curriculo__titulo {
     display: flex;
     justify-content: center;
-    padding: 2%;
+    padding: 2% 0% 4% 7%;
 }
 
 .imagem-pequena {
@@ -226,7 +226,7 @@ main {
     }
 
     .container__imagem__selfie {
-        max-width: 100%;
+        max-width: auto;
     }
 
     .cabecalho__menu__links {

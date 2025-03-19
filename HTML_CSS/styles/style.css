@@ -87,7 +87,7 @@ body {
 
 
 .container__curriculo__certificados {
-    max-width: 28.9%; /* Ou um valor fixo como 300px */
+    max-width: 28.9%;
     height: auto;
 }
 
@@ -105,10 +105,12 @@ body {
 .container__about__titulo {
     font-size: 2.375rem;
     font-family: "Big Shoulders Inline", sans-serif;
+    padding: 0% 0% 0% 0%;
 }
 .container__about__texto {
     color: var(--cor-terciaria);
     font-size: 1.125rem;
+    padding: 0% 0% 0% 0%;
 }
 
 /* CSS LOCAL - pagina about */
@@ -256,6 +258,22 @@ main {
     .container__links__link img {
         width: 20px; 
         height: auto;
+    }
+
+    .container__about {
+        width: 90%;
+        max-width: 100%;
+        padding: 18%;
+    }
+
+    .container__about__titulo {
+        font-size: 2rem; 
+        word-wrap: break-word; 
+    }
+
+    .container__about__texto {
+        font-size: 1rem; 
+        word-wrap: break-word;
     }
 
     .rodape {
